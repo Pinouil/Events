@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{18493B05-A6E8-451B-BE06-1758287CEB1A}</ProjectGuid>
+    <ProjectGuid>{1009345D-50B5-4C64-9AB3-A7109BD86838}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Event</RootNamespace>
-    <AssemblyName>Event</AssemblyName>
+    <RootNamespace>FolderSpy</RootNamespace>
+    <AssemblyName>FolderSpy</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Publisher.cs" />
-    <Compile Include="Subscriber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

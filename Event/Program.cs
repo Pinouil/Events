@@ -10,6 +10,11 @@ namespace Event
     {
         static void Main(string[] args)
         {
+            Subscriber subscribit = new Subscriber();
+            Publisher publishit = new Publisher();
+
+            subscribit.Subscribe(publishit);
+            publishit.Run();
         }
     }
 }
